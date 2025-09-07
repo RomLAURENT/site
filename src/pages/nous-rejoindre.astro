@@ -1,88 +1,92 @@
 ---
-import type { Lieu } from '../types/geoliens';
+import { applatirLieux, fetchGeoliens } from '../utils/geoliens';
+import PageBase from '../layout/page-base.astro';
 
-const response = await fetch('http://localhost:8081/?page=geoliens.json&var_mode=calcul');
-// const response = await fetch('http://https://10s25.ovh/cms/?page=geoliens.json&var_mode=calcul');
-const hierarchie = await response.json() as Lieu[];
-
-// utilitaire pour mettre a plat la hierarchie des lieux
-function flaten(hierarchie: Lieu[], chemin: string = "") {
-  return hierarchie.reduce((acc, { sousLieux, ...lieu}) => {
-	if(lieu.ressources.length > 0) {
-		acc.push({...lieu, chemin });
-	}
-	acc.push(...flaten(sousLieux, `${chemin}${lieu.nom} > `));
-	return acc;
-  }, [] as (Omit<Lieu, "sousLieux"> & { chemin: string })[]);
-}
-
-const flat = flaten(hierarchie);
+const hierarchie = await fetchGeoliens();
+const flat = applatirLieux(hierarchie);
 ---
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-	<meta charset="utf-8">
-</head>
-<body>
-	<iframe width="100%" height="800px" allowfullscreen allow="geolocation" src="https://umap.openstreetmap.fr/fr/map/indignons-nous_1261654?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true"></iframe>
-	<p><a class="bouton" href="//umap.openstreetmap.fr/fr/map/indignons-nous_1261654?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true">Afficher la carte en plein écran</a></p>
+<PageBase title="Nous rejoindre" description="Retrouvez les groupes et pages des Indignés sur les réseaux sociaux et plateformes alternatives." >
+	<div id="sidebar" />
 
-	<form id="geoliens-search" action="#" method="get">
-		<input type="text" id="search-text" placeholder="Rechercher un géolien" />
+	<div id="content">
+		<h2>Nous rejoindre</h2>
+		<p>Retrouvez les groupes et pages des Indignés sur les réseaux sociaux et plateformes alternatives.</p>
+		<p>Vous pouvez aussi rejoindre les groupes locaux sur les réseaux sociaux (Facebook, Telegram, Signal, ...) en vous rendant sur la carte ci-dessous et en cliquant sur votre département ou région.</p>
 
-		<select id="search-type">
-			<option value="">Tous types</option>
-			<option value="bluesky">Bluesky</option>
-			<option value="facebookg">Facebook - Groupe</option>
-			<option value="facebookp">Facebook - Page</option>
-			<option value="instagram">Instagram</option>
-			<option value="piaille">Piaille</option>
-			<option value="signal">Signal</option>
-			<option value="site">Site web</option>
-			<option value="telegram">Telegram</option>
-			<option value="tiktok">TikTok</option>
-			<option value="twitter">X (Twitter)</option>
-		</select>
+		<section id="geoliens-list">
+			<h3>Rechercher un groupe près de chez vous</h3>
+			<p>Vous pouvez utiliser le formulaire ci-dessous pour rechercher un géolien en particulier, ou pour filtrer les résultats par type de ressource (page Facebook, groupe Facebook, Twitter, Instagram, ...).</p>
+			<p>Vous pouvez aussi utiliser <a href="#geoliens-map">la carte</a> pour trouver les groupes locaux dans votre département ou région.</p>
 
-		<select id="search-territoire">
-			<option value="">Tous types</option>
-			<option value="Départemental">Départemental</option>
-			<option value="Local">Local</option>
-			<option value="National">National</option>
-			<option value="Régional">Régional</option>
-			<option value="Thématique">Thématique</option>
-		</select>
+			<form id="geoliens-search" action="#" method="get">
+				<input type="text" id="search-text" placeholder="Rechercher un géolien" />
 
-		<button type="submit">Rechercher</button>
-	</form>
+				<select id="search-type">
+					<option value="">Tous types</option>
+					<option value="bluesky">Bluesky</option>
+					<option value="facebookg">Facebook - Groupe</option>
+					<option value="facebookp">Facebook - Page</option>
+					<option value="instagram">Instagram</option>
+					<option value="piaille">Piaille</option>
+					<option value="signal">Signal</option>
+					<option value="site">Site web</option>
+					<option value="telegram">Telegram</option>
+					<option value="tiktok">TikTok</option>
+					<option value="twitter">X (Twitter)</option>
+				</select>
 
-	<dl id="geoliens-results" data-flatlinks={JSON.stringify(flat)}>
-		{flat.map(lieu => (
-			<dt>{lieu.nom}</dt>
-			<dd><dl>
-			{lieu.ressources.map(ressource => (<>
-				<dt class={ressource.icon}>{ressource.type}</dt>
-				<dd><ul>
-				{ressource.liens.map(lien => (
-					<li><a href={lien.url}>{lien.nom}</a></li>
+				<!--select id="search-territoire">
+					<option value="">Tous types</option>
+					<option value="Départemental">Départemental</option>
+					<option value="Local">Local</option>
+					<option value="National">National</option>
+					<option value="Régional">Régional</option>
+					<option value="Thématique">Thématique</option>
+				</select-->
+
+				<button type="submit">Rechercher</button>
+			</form>
+
+			<dl id="geoliens-results" data-flatlinks={JSON.stringify(flat)}>
+				{flat.map(lieu => (
+					<dt>{lieu.nom}</dt>
+					<dd><dl>
+					{lieu.ressources.map(ressource => (<>
+						<dt class={ressource.icon}>{ressource.type}</dt>
+						<dd><ul>
+						{ressource.liens.map(lien => (
+							<li><a href={lien.url}>{lien.nom}</a></li>
+						))}
+						</ul></dd>
+					</>))}
+					</dl></dd>
 				))}
-				</ul></dd>
-			</>))}
-			</dl></dd>
-		))}
-	</dl>
+			</dl>
+		</section>
+
+		<section id ="geoliens-map">
+			<h3>Rechercher un groupe près de chez vous</h3>
+			<p>Vous pouvez utiliser la carte ci-dessous pour trouver les groupes près de chez vous. Cliquez sur un point pret de chez vous et rejoignez-le !</p>
+			<p>vous pouvez aussi utilisé <a href="#geoliens-list">la liste</a> pour trouvez les groupes de votre département ou votre région.</p>
+
+			<iframe width="100%" height="800px" allowfullscreen allow="geolocation" src="https://umap.openstreetmap.fr/fr/map/indignons-nous_1261654?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true"></iframe>
+			<p><a href="https://umap.openstreetmap.fr/fr/map/indignons-nous_1261654?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true">Afficher la carte en plein écran</a></p>
+		</section>
+	</div>
 
 	<script>
-		// récupération des données depuis #geoliens-results[data-flatlinks].
-		const flat = JSON.parse(document.getElementById('geoliens-results')?.dataset.flatlinks || '[]');
+		import { applatirLieux, fetchGeoliens } from '../utils/geoliens';
+
+		const hierarchie = (await fetchGeoliens()) ?? JSON.parse(document.getElementById('geoliens-results')?.dataset.flatlinks ?? '[]');
+		const flat = applatirLieux(hierarchie);
 
 		// on intercepte les envois de formulaire
 		document.getElementById('geoliens-search')?.addEventListener('submit', (e) => {
 			e.preventDefault();
 
-			const query = (document.getElementById('search-text') as HTMLInputElement)?.value.toLowerCase() || '';
-			const searchType = (document.getElementById('search-type') as HTMLSelectElement)?.value || '';
-			const searchTerritoire = (document.getElementById('search-territoire') as HTMLSelectElement)?.value || '';
+			const query = (document.getElementById('search-text') as HTMLInputElement)?.value.toLowerCase() ?? '';
+			const searchType = (document.getElementById('search-type') as HTMLSelectElement)?.value ?? '';
+			const searchTerritoire = ""; // (document.getElementById('search-territoire') as HTMLSelectElement)?.value ?? '';
 
 			// on filtre les résultats
 			const results = flat
@@ -117,5 +121,4 @@ const flat = flaten(hierarchie);
 			}
 		});
 	</script>
-</body>
-</html>
+</PageBase>
