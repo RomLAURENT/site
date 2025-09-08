@@ -33,6 +33,8 @@ export async function fetchGeoliens()  {
         const response = await import('../data/geoliens.json');
         return response.default as unknown as Lieu[];
     } catch { }
+
+    return [];
 }
 
 // utilitaire pour mettre a plat la hierarchie des lieux
