@@ -419,12 +419,12 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Autunois - Morvan</p>
+	<p class="font-yellow">On-est-là&nbsp;! Grand Autunois Morvan</p>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
 				<ul>
-					<li><a href="https://t.me/+wx67YJuf3y83NjU8" target="_blank" rel="me">On-est-là&nbsp;! Grand Autuno</a></li>
+					<li><a href="https://t.me/+wx67YJuf3y83NjU8" target="_blank" rel="me">+wx67YJuf3y83NjU8</a></li>
 				</ul>
 			</li>
 		</ul>
@@ -574,6 +574,11 @@
 			</li>
 		</ul>
 	</li>
+<ul class="liste_groupes">
+	<li>
+	<p class="font-yellow">Paimpol</p>
+	</li>
+</ul>
 	<li>
 	<p class="font-yellow">29 - Finistère</p>
 		<ul>
@@ -604,6 +609,17 @@
 				<p>Telegram</p>
 				<ul>
 					<li><a href="https://t.me/+qlZLbdtaN4VmYTA0" target="_blank" rel="me">+qlZLbdtaN4VmYTA0</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li>
+	<p class="font-yellow">Douarnenez</p>
+		<ul>
+			<li class="signal">
+				<p>Signal</p>
+				<ul>
+					<li><a href="https://signal.group/#CjQKII1qXyyZlShZHZE4jrNn5tlRNXWfhVszh5mZMUCa2rCJEhBSXPFKiphSp2gqamlDf7cn" target="_blank" rel="me">CjQKII1qXyyZlShZHZE4jrNn5tlRNX</a></li>
 				</ul>
 			</li>
 		</ul>
@@ -639,6 +655,17 @@
 				<p>Telegram</p>
 				<ul>
 					<li><a href="https://t.me/+2zyykrgSNYI4YmQ0" target="_blank" rel="me">+2zyykrgSNYI4YmQ0</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li>
+	<p class="font-yellow">Questembert</p>
+		<ul>
+			<li class="signal">
+				<p>Signal</p>
+				<ul>
+					<li><a href="https://signal.group/#CjQKIBjG4Z1yW3a83ptic0PCR6QP8AxpgkLJZ1gKAuT4hZ50EhAxT1f1ouu64rkIerWA4XZZ" target="_blank" rel="me">CjQKIBjG4Z1yW3a83ptic0PCR6QP8A</a></li>
 				</ul>
 			</li>
 		</ul>
@@ -718,23 +745,23 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Tours</p>
-		<ul>
-			<li class="telegram">
-				<p>Telegram</p>
-				<ul>
-					<li><a href="https://t.me/+UlH4Zr3yf5FjMmRk" target="_blank" rel="me">+UlH4Zr3yf5FjMmRk</a></li>
-				</ul>
-			</li>
-		</ul>
-	</li>
-	<li>
 	<p class="font-yellow">Vendôme</p>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
 				<ul>
 					<li><a href="https://t.me/+2U_sY8PE0fgwZTBk" target="_blank" rel="me">+2U_sY8PE0fgwZTBk</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li>
+	<p class="font-yellow">Montoir-sur-le-loir</p>
+		<ul>
+			<li class="telegram">
+				<p>Telegram</p>
+				<ul>
+					<li><a href="https://t.me/+glkw7NmEU4AxNjc0" target="_blank" rel="me">+glkw7NmEU4AxNjc0</a></li>
 				</ul>
 			</li>
 		</ul>
@@ -751,6 +778,19 @@
 			</li>
 		</ul>
 	</li>
+<ul class="liste_groupes">
+	<li>
+	<p class="font-yellow">Tours</p>
+		<ul>
+			<li class="telegram">
+				<p>Telegram</p>
+				<ul>
+					<li><a href="https://t.me/+UlH4Zr3yf5FjMmRk" target="_blank" rel="me">+UlH4Zr3yf5FjMmRk</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+</ul>
 	<li>
 	<p class="font-yellow">36 - Indre</p>
 		<ul>
@@ -785,6 +825,11 @@
 			</li>
 		</ul>
 	</li>
+<ul class="liste_groupes">
+	<li>
+	<p class="font-yellow">2A - Corse-du-Sud</p>
+	</li>
+</ul>
 	<li>
 	<p class="font-yellow">GRAND EST</p>
 		<ul>
@@ -829,6 +874,25 @@
 		</ul>
 	</li>
 </ul>
+	<li>
+	<p class="font-yellow">54 - Meurthe-et-Moselle</p>
+	</li>
+<ul class="liste_groupes">
+	<li>
+	<p class="font-yellow">Nancy</p>
+		<ul>
+			<li class="site">
+				<p>Site web</p>
+				<ul>
+					<li><a href="https://www.indignonsnous-sud54.fr" target="_blank" rel="me">Collectif Indignons-nous Grand</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+</ul>
+	<li>
+	<p class="font-yellow">55 - Meuse</p>
+	</li>
 	<li>
 	<p class="font-yellow">51 - Marne</p>
 	</li>
@@ -886,6 +950,23 @@
 				</ul>
 			</li>
 		</ul>
+	</li>
+	<li>
+	<p class="font-yellow">Strasbourg</p>
+		<ul>
+			<li class="telegram">
+				<p>Telegram</p>
+				<ul>
+					<li><a href="https://t.me/+hD3FxDOng1NhYjdk" target="_blank" rel="me">+hD3FxDOng1NhYjdk</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li>
+	<p class="font-yellow">Sélestat</p>
+	</li>
+	<li>
+	<p class="font-yellow">Haguenau</p>
 	</li>
 </ul>
 	<li>
@@ -965,6 +1046,42 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
+	<p class="font-yellow">Pays haut (Nord 54)</p>
+		<ul>
+			<li class="telegram">
+				<p>Telegram</p>
+				<ul>
+					<li><a href="https://t.me/+tDNxLGT1PURkZWQ0" target="_blank" rel="me">+tDNxLGT1PURkZWQ0</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li>
+	<p class="font-yellow">Valenciennes</p>
+		<ul>
+			<li class="telegram">
+				<p>Telegram</p>
+				<ul>
+					<li><a href="https://t.me/+-eUXX7mz9z45ZGE0" target="_blank" rel="me">+-eUXX7mz9z45ZGE0</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li>
+	<p class="font-yellow">Lille</p>
+	</li>
+	<li>
+	<p class="font-yellow">Hazebrouck</p>
+	</li>
+</ul>
+	<li>
+	<p class="font-yellow">80 - Somme</p>
+	</li>
+	<li>
+	<p class="font-yellow">62 - Pas-de-Calais</p>
+	</li>
+<ul class="liste_groupes">
+	<li>
 	<p class="font-yellow">Calais</p>
 		<ul>
 			<li class="signal">
@@ -976,15 +1093,31 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Pays haut</p>
-		<ul>
-			<li class="telegram">
-				<p>Telegram</p>
-				<ul>
-					<li><a href="https://t.me/+tDNxLGT1PURkZWQ0" target="_blank" rel="me">+tDNxLGT1PURkZWQ0</a></li>
-				</ul>
-			</li>
-		</ul>
+	<p class="font-yellow">Lillers</p>
+	</li>
+	<li>
+	<p class="font-yellow">Hénin-Beaumont</p>
+	</li>
+	<li>
+	<p class="font-yellow">Béthune</p>
+	</li>
+	<li>
+	<p class="font-yellow">Boulogne-sur-Mer</p>
+	</li>
+	<li>
+	<p class="font-yellow">Arras</p>
+	</li>
+	<li>
+	<p class="font-yellow">Bapaume</p>
+	</li>
+	<li>
+	<p class="font-yellow">Lens</p>
+	</li>
+	<li>
+	<p class="font-yellow">Hesdin</p>
+	</li>
+	<li>
+	<p class="font-yellow">Aix-Noulette</p>
 	</li>
 </ul>
 </ul>
@@ -1095,6 +1228,11 @@
 			</li>
 		</ul>
 	</li>
+<ul class="liste_groupes">
+	<li>
+	<p class="font-yellow">Clichy</p>
+	</li>
+</ul>
 	<li>
 	<p class="font-yellow">93 - Seine-Saint-Denis</p>
 		<ul>
@@ -1332,17 +1470,6 @@
 			</li>
 		</ul>
 	</li>
-	<li>
-	<p class="font-yellow">Mantes-Dreux-Evreux</p>
-		<ul>
-			<li class="telegram">
-				<p>Telegram</p>
-				<ul>
-					<li><a href="https://t.me/+IyD36DMxoCZiNzI8" target="_blank" rel="me">+IyD36DMxoCZiNzI8</a></li>
-				</ul>
-			</li>
-		</ul>
-	</li>
 </ul>
 </ul>
 	<li>
@@ -1417,6 +1544,9 @@
 	<p class="font-yellow">Saint-Macaire</p>
 	</li>
 </ul>
+	<li>
+	<p class="font-yellow">40 - Landes</p>
+	</li>
 	<li>
 	<p class="font-yellow">24 - Dordogne</p>
 		<ul>
@@ -1591,6 +1721,17 @@
 				<p>Telegram</p>
 				<ul>
 					<li><a href="https://t.me/+fFVATyvoOWowZjA0" target="_blank" rel="me">+fFVATyvoOWowZjA0</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li>
+	<p class="font-yellow">Tulle</p>
+		<ul>
+			<li class="signal">
+				<p>Signal</p>
+				<ul>
+					<li><a href="https://signal.group/#CjQKIFYvfaowBQvDSse44uFXLAYN_wVaIXatHpa4zVgJbZcUEhCnsKjxuA7kO-i3R1xN0aWH" target="_blank" rel="me">CjQKIFYvfaowBQvDSse44uFXLAYN_w</a></li>
 				</ul>
 			</li>
 		</ul>
@@ -1800,9 +1941,40 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
+	<p class="font-yellow">66 - Pyrénées-Orientales</p>
+		<ul>
+			<li class="telegram">
+				<p>Telegram</p>
+				<ul>
+					<li><a href="https://t.me/collectifsunis31" target="_blank" rel="me">Pyrénées Orientales (voir su</a></li>
+					<li><a href="https://t.me/collectifsunis31" target="_blank" rel="me">collectifsunis31</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+<ul class="liste_groupes">
+	<li>
+	<p class="font-yellow">Perpignan</p>
+	</li>
+	<li>
+	<p class="font-yellow">Prades</p>
+	</li>
+</ul>
+	<li>
 	<p class="font-yellow">81 - Tarn</p>
 	</li>
 <ul class="liste_groupes">
+	<li>
+	<p class="font-yellow">Carmaux</p>
+		<ul>
+			<li class="telegram">
+				<p>Telegram</p>
+				<ul>
+					<li><a href="https://t.me/+HaMc91Ada2M0Nzg0" target="_blank" rel="me">+HaMc91Ada2M0Nzg0</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
 	<li>
 	<p class="font-yellow">Albi</p>
 		<ul>
@@ -1847,6 +2019,23 @@
 			</li>
 		</ul>
 	</li>
+	<li>
+	<p class="font-yellow">Rabastens</p>
+	</li>
+	<li>
+	<p class="font-yellow">Mazamet</p>
+		<ul>
+			<li class="telegram">
+				<p>Telegram</p>
+				<ul>
+					<li><a href="https://t.me/+4Ird290w9ag0NGNk" target="_blank" rel="me">+4Ird290w9ag0NGNk</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li>
+	<p class="font-yellow">Lisle-sur-Tarn</p>
+	</li>
 </ul>
 	<li>
 	<p class="font-yellow">46 - Lot</p>
@@ -1859,6 +2048,75 @@
 			</li>
 		</ul>
 	</li>
+<ul class="liste_groupes">
+	<li>
+	<p class="font-yellow">Cahors</p>
+	</li>
+</ul>
+	<li>
+	<p class="font-yellow">48 - Lozère</p>
+	</li>
+<ul class="liste_groupes">
+	<li>
+	<p class="font-yellow">Mende</p>
+	</li>
+	<li>
+	<p class="font-yellow">Florac</p>
+	</li>
+</ul>
+	<li>
+	<p class="font-yellow">11 - Aude</p>
+	</li>
+<ul class="liste_groupes">
+	<li>
+	<p class="font-yellow">Narbonne</p>
+	</li>
+	<li>
+	<p class="font-yellow">Limoux</p>
+	</li>
+</ul>
+	<li>
+	<p class="font-yellow">09 - Ariège</p>
+	</li>
+<ul class="liste_groupes">
+	<li>
+	<p class="font-yellow">Pamiers</p>
+	</li>
+	<li>
+	<p class="font-yellow">Foix</p>
+	</li>
+	<li>
+	<p class="font-yellow">Saint-Girons</p>
+	</li>
+</ul>
+	<li>
+	<p class="font-yellow">31 - Haute-Garonne</p>
+		<ul>
+			<li class="telegram">
+				<p>Telegram</p>
+				<ul>
+					<li><a href="https://t.me/collectifsunis31" target="_blank" rel="me">Haute Garonne (voir sujet dans</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+<ul class="liste_groupes">
+	<li>
+	<p class="font-yellow">Muret</p>
+	</li>
+	<li>
+	<p class="font-yellow">Saint-Gaudens</p>
+	</li>
+	<li>
+	<p class="font-yellow">Pins-Justaret</p>
+	</li>
+	<li>
+	<p class="font-yellow">Capens</p>
+	</li>
+	<li>
+	<p class="font-yellow">Cazères</p>
+	</li>
+</ul>
 	<li>
 	<p class="font-yellow">32 - Gers</p>
 	</li>
@@ -1909,6 +2167,18 @@
 			</li>
 		</ul>
 	</li>
+	<li>
+	<p class="font-yellow">Sète</p>
+	</li>
+	<li>
+	<p class="font-yellow">Bédarieux</p>
+	</li>
+	<li>
+	<p class="font-yellow">Agde</p>
+	</li>
+	<li>
+	<p class="font-yellow">Béziers</p>
+	</li>
 </ul>
 	<li>
 	<p class="font-yellow">12 - Aveyron</p>
@@ -1921,6 +2191,17 @@
 			</li>
 		</ul>
 	</li>
+<ul class="liste_groupes">
+	<li>
+	<p class="font-yellow">Villefranche de Rouergue</p>
+	</li>
+	<li>
+	<p class="font-yellow">Decazeville</p>
+	</li>
+	<li>
+	<p class="font-yellow">Rodez</p>
+	</li>
+</ul>
 	<li>
 	<p class="font-yellow">65 - Hautes-Pyrénées</p>
 	</li>
@@ -1940,6 +2221,23 @@
 			</li>
 		</ul>
 	</li>
+<ul class="liste_groupes">
+	<li>
+	<p class="font-yellow">Roquemaure</p>
+	</li>
+	<li>
+	<p class="font-yellow">Uzès</p>
+	</li>
+	<li>
+	<p class="font-yellow">Nîmes</p>
+	</li>
+	<li>
+	<p class="font-yellow">Alès</p>
+	</li>
+	<li>
+	<p class="font-yellow">Saint-Chaptes</p>
+	</li>
+</ul>
 </ul>
 	<li>
 	<p class="font-yellow">PAYS DE LA LOIRE</p>
@@ -2045,40 +2343,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Nantes Agglomération</p>
-		<ul>
-			<li class="telegram">
-				<p>Telegram</p>
-				<ul>
-					<li><a href="https://t.me/+FVgpAoiS7-IzMTA0" target="_blank" rel="me">+FVgpAoiS7-IzMTA0</a></li>
-				</ul>
-			</li>
-		</ul>
-	</li>
-	<li>
-	<p class="font-yellow">Nantes Nord</p>
-		<ul>
-			<li class="telegram">
-				<p>Telegram</p>
-				<ul>
-					<li><a href="https://t.me/+pXKibPlTgwFkNzBk" target="_blank" rel="me">+pXKibPlTgwFkNzBk</a></li>
-				</ul>
-			</li>
-		</ul>
-	</li>
-	<li>
-	<p class="font-yellow">Nantes sud Loire</p>
-		<ul>
-			<li class="telegram">
-				<p>Telegram</p>
-				<ul>
-					<li><a href="https://t.me/+M6jHtN4YMmQ2OGU8" target="_blank" rel="me">+M6jHtN4YMmQ2OGU8</a></li>
-				</ul>
-			</li>
-		</ul>
-	</li>
-	<li>
-	<p class="font-yellow">Malakoff St donatien</p>
+	<p class="font-yellow">à supprimer Malakoff St donatien</p>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -2165,6 +2430,55 @@
 			</li>
 		</ul>
 	</li>
+	<li>
+	<p class="font-yellow">Nantes</p>
+	</li>
+<ul class="liste_groupes">
+	<li>
+	<p class="font-yellow">Nantes Agglomération</p>
+		<ul>
+			<li class="telegram">
+				<p>Telegram</p>
+				<ul>
+					<li><a href="https://t.me/+FVgpAoiS7-IzMTA0" target="_blank" rel="me">+FVgpAoiS7-IzMTA0</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li>
+	<p class="font-yellow">Nantes Nord</p>
+		<ul>
+			<li class="telegram">
+				<p>Telegram</p>
+				<ul>
+					<li><a href="https://t.me/+pXKibPlTgwFkNzBk" target="_blank" rel="me">+pXKibPlTgwFkNzBk</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li>
+	<p class="font-yellow">Nantes sud Loire</p>
+		<ul>
+			<li class="telegram">
+				<p>Telegram</p>
+				<ul>
+					<li><a href="https://t.me/+M6jHtN4YMmQ2OGU8" target="_blank" rel="me">+M6jHtN4YMmQ2OGU8</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li>
+	<p class="font-yellow">Village Graslin</p>
+		<ul>
+			<li class="telegram">
+				<p>Telegram</p>
+				<ul>
+					<li><a href="https://t.me/+TvdRGzyLq1U4NzBk" target="_blank" rel="me">+TvdRGzyLq1U4NzBk</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+</ul>
 </ul>
 	<li>
 	<p class="font-yellow">49 - Maine-et-Loire</p>
@@ -2235,10 +2549,10 @@
 	<li>
 	<p class="font-yellow">Marseille</p>
 		<ul>
-			<li class="signal">
-				<p>Signal</p>
+			<li class="telegram">
+				<p>Telegram</p>
 				<ul>
-					<li><a href="https://signal.group/#CjQKIIqrgIOtF2gVpLAsDwHfySQwrkOjwFSajJYRVnCBh0HQEhB_83NU9LCRfqoU9-Lmjf_M" target="_blank" rel="me">CjQKIIqrgIOtF2gVpLAsDwHfySQwrk</a></li>
+					<li><a href="https://t.me/+WAzqMf3TdOUyNzZk" target="_blank" rel="me">CjQKIIqrgIOtF2gVpLAsDwHfySQwrk</a></li>
 				</ul>
 			</li>
 		</ul>
@@ -2250,7 +2564,7 @@
 			<li class="telegram">
 				<p>Telegram</p>
 				<ul>
-					<li><a href="https://t.me/+K0Nsa7fcLcdlNWRk" target="_blank" rel="me">+K0Nsa7fcLcdlNWRk</a></li>
+					<li><a href="https://t.me/+VWZbkhGK9b00MmFk" target="_blank" rel="me">+VWZbkhGK9b00MmFk</a></li>
 				</ul>
 			</li>
 		</ul>
@@ -2478,6 +2792,19 @@
 			</li>
 		</ul>
 	</li>
+</ul>
+	<li>
+	<p class="font-yellow">Espagne</p>
+	</li>
+<ul class="liste_groupes">
+	<li>
+	<p class="font-yellow">Catalogne</p>
+	</li>
+<ul class="liste_groupes">
+	<li>
+	<p class="font-yellow">La Jonquera</p>
+	</li>
+</ul>
 </ul>
 </ul>
 <ul class="liste_groupes">
