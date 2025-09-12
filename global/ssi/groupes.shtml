@@ -707,23 +707,23 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">La Fanfare Invisible</p>
-		<ul>
-			<li class="signal">
-				<p>Signal</p>
-				<ul>
-					<li><a href="https://signal.group/#CjQKII1qXyyZlShZHZE4jrNn5tlRNXWfhVszh5mZMUCa2rCJEhBSXPFKiphSp2gqamlDf7cn" target="_blank" rel="me">CjQKII1qXyyZlShZHZE4jrNn5tlRNX</a></li>
-				</ul>
-			</li>
-		</ul>
-	</li>
-	<li>
 	<p class="font-yellow">Audierne</p>
 		<ul>
 			<li class="signal">
 				<p>Signal</p>
 				<ul>
 					<li><a href="https://signal.group/#CjQKIDPuc8KJLYLaffQ0F9XHXCHi7n02xMiwH8rCB66sYOvDEhDeeCAtgZxI8lRQlzhXO2N5" target="_blank" rel="me">CjQKIDPuc8KJLYLaffQ0F9XHXCHi7n</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li>
+	<p class="font-yellow">La Fanfare Invisible</p>
+		<ul>
+			<li class="signal">
+				<p>Signal</p>
+				<ul>
+					<li><a href="https://signal.group/#CjQKII1qXyyZlShZHZE4jrNn5tlRNXWfhVszh5mZMUCa2rCJEhBSXPFKiphSp2gqamlDf7cn" target="_blank" rel="me">CjQKII1qXyyZlShZHZE4jrNn5tlRNX</a></li>
 				</ul>
 			</li>
 		</ul>
@@ -1022,6 +1022,14 @@
 <ul class="liste_groupes">
 	<li>
 	<p class="font-yellow">Troyes</p>
+		<ul>
+			<li class="telegram">
+				<p>Telegram</p>
+				<ul>
+					<li><a href="https://t.me/indignons_nous_troyes" target="_blank" rel="me">indignons_nous_troyes</a></li>
+				</ul>
+			</li>
+		</ul>
 	</li>
 </ul>
 	<li>
@@ -1114,22 +1122,13 @@
 			</li>
 		</ul>
 	</li>
+	<li>
+	<p class="font-yellow">Sarrebourg</p>
+	</li>
 </ul>
 	<li>
 	<p class="font-yellow">67 - Bas-Rhin</p>
 		<ul>
-			<li class="facebookp">
-				<p>Facebook - Page</p>
-				<ul>
-					<li><a href="https://www.facebook.com/profile.php?id=61579586026495" target="_blank" rel="me">FB Indignons Nous 67</a></li>
-				</ul>
-			</li>
-			<li class="instagram">
-				<p>Instagram</p>
-				<ul>
-					<li><a href="https://www.instagram.com/indignonsnous67/" target="_blank" rel="me">INSTA indignonsnous67</a></li>
-				</ul>
-			</li>
 			<li class="telegram">
 				<p>Telegram</p>
 				<ul>
@@ -1170,6 +1169,14 @@
 </ul>
 	<li>
 	<p class="font-yellow">88 - Vosges</p>
+		<ul>
+			<li class="telegram">
+				<p>Telegram</p>
+				<ul>
+					<li><a href="https://t.me/+KsMKfMWAJpxhZjFk" target="_blank" rel="me">+KsMKfMWAJpxhZjFk</a></li>
+				</ul>
+			</li>
+		</ul>
 	</li>
 <ul class="liste_groupes">
 	<li>
@@ -1340,6 +1347,7 @@
 				<p>Telegram</p>
 				<ul>
 					<li><a href="https://t.me/retlIDF" target="_blank" rel="me">retlIDF</a></li>
+					<li><a href="https://t.me/+vCk5fVFqa3s0ZDlk" target="_blank" rel="me">+vCk5fVFqa3s0ZDlk</a></li>
 				</ul>
 			</li>
 		</ul>
@@ -3012,7 +3020,7 @@
 	</li>
 <ul class="liste_groupes">
 	<li>
-	<p class="font-yellow">Marseille EST</p>
+	<p class="font-yellow">Marseille Est</p>
 		<ul>
 			<li class="telegram">
 				<p>Telegram</p>
@@ -3023,7 +3031,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Marseille centre</p>
+	<p class="font-yellow">Marseille Centre (complet) - rejoindre le telegram</p>
 		<ul>
 			<li class="signal">
 				<p>Signal</p>
@@ -3034,7 +3042,7 @@
 		</ul>
 	</li>
 	<li>
-	<p class="font-yellow">Marseille NORD</p>
+	<p class="font-yellow">Marseille Nord</p>
 		<ul>
 			<li class="signal">
 				<p>Signal</p>
