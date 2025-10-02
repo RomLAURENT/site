@@ -521,7 +521,14 @@
 				</li>
 			</ul>
 		</div>
+	
+<ul class="liste_groupes css-accordion">
+	<li>
+		<input id="tab-455" type="checkbox">
+		<label for="tab-455"><a href="https://10s25.ovh/cms/groupe-geolocalises/france/auvergne-rhone-alpes/73-savoie/chambery/">Chambéry</a></label>
+		
 	</li>
+</ul></li>
 	<li>
 		<input id="tab-20" type="checkbox">
 		<label for="tab-20"><a href="https://10s25.ovh/cms/groupe-geolocalises/france/auvergne-rhone-alpes/74-haute-savoie/">74 - Haute-Savoie</a></label>
@@ -2153,6 +2160,11 @@
 				</li>
 			</ul>
 		</div>
+	</li>
+	<li>
+		<input id="tab-456" type="checkbox">
+		<label for="tab-456"><a href="https://10s25.ovh/cms/groupe-geolocalises/france/ile-de-france/75-paris/paris-8eme/">Paris 8eme</a></label>
+		
 	</li>
 </ul></li>
 	<li>
