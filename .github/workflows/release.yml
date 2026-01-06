@@ -1,11 +1,11 @@
 name: Release
 
-on:
-  push:
-    tags:
-      - 'last'
-  
-  workflow_dispatch:
+#on:
+#  push:
+#    tags:
+#      - 'last'
+#  
+#  workflow_dispatch:
 
 permissions:
   contents: write

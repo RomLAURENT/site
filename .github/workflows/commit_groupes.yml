@@ -4,10 +4,10 @@
 name: Commit Groupes
 run-name: ${{ github.actor }} update from CMS
 
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: "0 0 * * *"
+#on:
+#  workflow_dispatch:
+#  schedule:
+#    - cron: "0 0 * * *"
 
 permissions:
   contents: write
